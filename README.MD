@@ -1,6 +1,6 @@
 ![Copyright ev0lve Digital](https://img.shields.io/badge/Copyright-ev0lve%20Digital-blue) ![GitHub License](https://img.shields.io/github/license/HvH-gg/CSGO-NetMsg-CrashFix) ![Issues](https://img.shields.io/github/issues/HvH-gg/CSGO-NetMsg-CrashFix) ![Stars](https://img.shields.io/github/stars/HvH-gg/CSGO-NetMsg-CrashFix)
 
-# HvH.gg CS:GO NetMsg CrashFix (1.0.0)
+# [HvH.gg](https://hvh.gg) CS:GO NetMsg CrashFix (1.0.0)
 
 This plugin fixes an exploit where spamming NetMsg packets would result in a server crash.
 
@@ -15,5 +15,6 @@ This plugin fixes an exploit where spamming NetMsg packets would result in a ser
 3. Type `sm plugins load hvhgg_netmsg_crash_fix` in your server console
 
 # Credits
+- [HvH.gg](https://hvh.gg)
 - [Metamod:Source](https://www.sourcemm.net/)
 - [Sourcemod](https://www.sourcemod.net/)
