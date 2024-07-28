@@ -1,0 +1,30 @@
+"Games"
+{
+	"#default"
+	{
+		"Functions"
+		{
+			"ProcessPacketHeader"
+			{
+				"signature"     "ProcessPacketHeaderSig"
+                "callconv"      "thiscall"
+                "return"        "int"
+                "this"          "ignore"
+                "arguments"
+                {
+                    "packet" {
+                        "type"  "objectptr"
+                    }
+                }
+			}
+		}
+		"Signatures"
+        {
+            "ProcessPacketHeaderSig"
+            {
+                "library"   "engine"
+                "linux"     "\x55\x89\xE5\x57\x56\x53\x83\xEC\x2A\x8B\x7D\x2A\x8B\x47\x2A\x83\xF8\x2A\x0F\x8E"
+            }
+        }
+	}
+}
